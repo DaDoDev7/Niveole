@@ -19,6 +19,7 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d2daa20862.js" crossorigin="anonymous"></script>
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -31,6 +32,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="node_modules\lightbox2\dist\css\lightbox.css">
+    <script src="node_modules\lightbox2\dist\js\lightbox.js"></script>
 
   
     
@@ -78,8 +80,8 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5" >
-            <h1  class="m-0 " style="color: #176560;" ><img style="width: 100px;" src="img/logo/NIVEOLE-LOGO-CARRE.png" alt="">Niveole</h1>
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5" style="background-color: #ffffff;" >
+            <h1  class="m-0 " style="color: #6BA78D;" ><img style="width: 120px;" src="img/logo/NIVEOLE-LOGO-CARRE.png" alt="">Niveole</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -99,9 +101,9 @@
                         <a href="404.html" class="dropdown-item">404 Page</a>
                     </div>
                 </div> -->
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> -->
             </div>
-            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
+            <a  href="#appointment_start" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -138,11 +140,17 @@
                     <div class="owl-carousel-item position-relative">
                         <img class="img-fluid" src="img/whatsapp_images/cabinet-niveole-1.jpeg" alt="">
                         <div class="owl-carousel-text">
-                            <h1 class="display-1 text-white mb-0">Podologie</h1>
+                            <h1 class="display-1 text-white mb-0">Kinesitherapie</h1>
                         </div>
                     </div>
                     <div class="owl-carousel-item position-relative">
                         <img class="img-fluid" src="img/whatsapp_images/cabinet-niveole-2.jpeg" alt="">
+                        <div class="owl-carousel-text">
+                            <h1 class="display-1 text-white mb-0">Podologie</h1>
+                        </div>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid" src="img/whatsapp_images/cabinet-niveole-3.jpeg" alt="">
                         <div class="owl-carousel-text">
                             <h1 class="display-1 text-white mb-0">Medicine Generaliste</h1>
                         </div>
@@ -150,7 +158,13 @@
                     <div class="owl-carousel-item position-relative">
                         <img class="img-fluid" src="img/whatsapp_images/cabinet-niveole-3.jpeg" alt="">
                         <div class="owl-carousel-text">
-                            <h1 class="display-1 text-white mb-0">Kinesitherapie</h1>
+                            <h1 class="display-1 text-white mb-0">Psychologie</h1>
+                        </div>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid" src="img/whatsapp_images/cabinet-niveole-3.jpeg" alt="">
+                        <div class="owl-carousel-text">
+                            <h1 class="display-1 text-white mb-0">Pilates</h1>
                         </div>
                     </div>
                 </div>
@@ -166,8 +180,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="d-flex flex-column">
-                        <img class="img-fluid rounded w-75 align-self-end" src="img/whatsapp_images/cabinet-pic-1.jpeg">
-                        <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/whatsapp_images/cabinet-pic-2.jpeg" alt="" style="margin-top: -25%;">
+                        <img class="img-fluid rounded w-75 align-self-end" src="img/whatsapp_images/cabinet-pic-2.jpeg">
+                        <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/whatsapp_images/cabinet-pic-1.jpeg" alt="" style="margin-top: -25%;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -194,14 +208,24 @@
                 <h1>Nos Solutions</h1>
             </div>
             <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-brain text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">La Podologie</h4>
+                        <p class="mb-4">Le podologue est formé pour prévenir les affections de la peau et des ongles. Il fait parti de la prise en charge des patients diabétiques. Il réalise des ortheses sur-mesure ( orthoplasties) qui sont utilisés pour les protection/ correction des orteils.</p>
+                        
+                    </div>
+                </div> 
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item bg-light rounded h-100 p-5">
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
                             <i class="fa fa-heartbeat text-primary fs-4"></i>
                         </div>
-                        <h4 class="mb-3">Medicine Generaliste</h4>
-                        <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                        <h4 class="mb-3">Réflexologie plantaire</h4>
+                        <p class="mb-4">La réflexologie plantaire est une pratique thérapeutique qui consiste à stimuler des points spécifiques sur les pieds. Elle repose sur le principe selon lequel ces points réflexes sont liés à des organes et des parties du corps, permettant ainsi de traiter divers maux et de promouvoir la détente.</p>
+                        
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -209,51 +233,43 @@
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
                             <i class="fa fa-x-ray text-primary fs-4"></i>
                         </div>
-                        <h4 class="mb-3">Kinesitherapie</h4>
-                        <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                        <h4 class="mb-3">Podologie du sport</h4>
+                        <p class="mb-4">La podologie du sport permet d’analyser la biomecanique du corps humain lors de la marche et de la course .
+                            Les conseils chaussage suive la consultation.</p>
+                        
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-light rounded h-100 p-5">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                            <i class="fa fa-brain text-primary fs-4"></i>
-                        </div>
-                        <h4 class="mb-3">Neurology</h4>
-                        <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                    </div>
-                </div>  -->
-                <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item bg-light rounded h-100 p-5">
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
                             <i class="fa fa-wheelchair text-primary fs-4"></i>
                         </div>
-                        <h4 class="mb-3">Orthopedics</h4>
-                        <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                        <h4 class="mb-3">Pilates</h4>
+                        <p class="mb-4">Un enseignement individualisé de qualité , une méthode de renforcement musculaire qui privilégie les muscles profonds responsable de notre posture et notre stabilité .
+                            Ne subissez plus votre corps , contrôlez le !</p>
+                        
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded h-100 p-5">
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
                             <i class="fa fa-tooth text-primary fs-4"></i>
                         </div>
                         <h4 class="mb-3">Dental Surgery</h4>
                         <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                        
                     </div>
                 </div> -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item bg-light rounded h-100 p-5">
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
                             <i class="fa fa-vials text-primary fs-4"></i>
                         </div>
                         <h4 class="mb-3">Podologie</h4>
                         <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                        
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -268,7 +284,7 @@
                     <div class="p-lg-5 ps-lg-0">
                         <p class="d-inline-block border rounded-pill text-light py-1 px-4">Features</p>
                         <h1 class="text-white mb-4">Pourquoi nous choisir</h1>
-                        <p class="text-white mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <p class="text-white mb-4 pb-2">Nous sommes une équipe médicale et paramédicale dynamique, favorisant les échanges pour une prise en charge globale de nos patients .</p>
                         <div class="row g-4">
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
@@ -340,17 +356,18 @@
                    
                         <div class="team-item position-relative rounded overflow-hidden">
                             <div style="height: 400px;" class="overflow-hidden">
-                                <a href="img/whatsapp_images/lanthiezlaure.jpg" data-lightbox="lesdocteurs" data-title="My caption">
-                                <img  class="img-fluid" src="img/whatsapp_images/lanthiezlaure.jpg " alt="">
+                                <a href="img/newpics/laure.jpeg" data-lightbox="lesdocteurs" data-title="My caption">
+                                <img  class="img-fluid" src="img/newpics/laure.jpeg" alt="">
                                 </a>
                             </div>
                             <div class="team-text bg-light text-center p-4">
                                 <h5>Laure Lanthiez</h5>
                                 <p class="text-primary">Podologue du SPORT</p>
                                 <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square" href="https://progenda.be/calendars/lanthiez-laure-laeken" target="_blank"><i class="fa-solid fa-user-doctor"></i></a>
+                                    <a class="btn btn-square" href="tel:+32497427135" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                                    <!-- <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -360,17 +377,18 @@
                     
                         <div class="team-item position-relative rounded overflow-hidden">
                             <div style="height: 400px;" class="overflow-hidden">
-                                <a href="img/whatsapp_images/charlenebott.jpeg" data-lightbox="lesdocteurs" data-title="My caption">
-                                <img  class="img-fluid" src="img/whatsapp_images/charlenebott.jpeg" alt="">
+                                <a href="img/newpics/charlene.jpeg" data-lightbox="lesdocteurs" data-title="My caption">
+                                <img  class="img-fluid" src="img/newpics/charlene.jpeg" alt="">
                                 </a>
                             </div>
                             <div class="team-text bg-light text-center p-4">
                                 <h5>Charlene Bott</h5>
                                 <p class="text-primary">Podologue Graduèe</p>
                                 <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square" href="https://progenda.be/calendars/charlene-podologue-laeken" target="_blank"><i class="fa-solid fa-user-doctor"></i></a>
+                                    <a class="btn btn-square" href="tel:+32 497 55 55 76" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                                    <!-- <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -379,17 +397,17 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item position-relative rounded overflow-hidden">
                             <div style="height: 400px;" class="overflow-hidden">
-                                <a href="img/whatsapp_images/fabianepereira.jpeg" data-lightbox="lesdocteurs" data-title="My caption">
-                                <img  class="img-fluid" src="img/whatsapp_images/fabianepereira.jpeg" alt="">
+                                <a href="img/newpics/fabienne.jpeg" data-lightbox="lesdocteurs" data-title="My caption">
+                                <img  class="img-fluid" src="img/newpics/fabienne.jpeg" alt="">
                                 </a>
                             </div>
                             <div class="team-text bg-light text-center p-4">
-                                <h5>Fabiana Pereira</h5>
+                                <h5>Fabienne Pereira</h5>
                                 <p class="text-primary">Instructrice de Pilâtes</p>
                                 <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square" href="tel:+32 465 21 45 95" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                                    <!-- <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -398,17 +416,17 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item position-relative rounded overflow-hidden">
                             <div style="height: 400px;" class="overflow-hidden">
-                                <a href="img/whatsapp_images/jessicalopesferreira.jpeg" data-lightbox="lesdocteurs" data-title="My caption">
-                                <img  class="img-fluid" src="img/whatsapp_images/jessicalopesferreira.jpeg" alt="">
+                                <a href="img/newpics/jessica.jpeg" data-lightbox="lesdocteurs" data-title="My caption">
+                                <img  class="img-fluid" src="img/newpics/jessica.jpeg" alt="">
                                 </a>
                             </div>
                             <div class="team-text bg-light text-center p-4">
                                 <h5>Jessica Lopes Ferreira</h5>
                                 <p class="text-primary">Kinésithérapeute</p>
                                 <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square" href="tel:+32 472 31 17 95" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                                    <!-- <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -417,17 +435,18 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item position-relative rounded overflow-hidden">
                             <div style="height: 400px;" class="overflow-hidden">
-                                <a href="img/whatsapp_images/lèahoornaert.jpeg" data-lightbox="lesdocteurs" data-title="My caption">
-                                <img  class="img-fluid" src="img/whatsapp_images/lèahoornaert.jpeg" alt="">
+                                <a href="img/newpics/lèa.jpeg" data-lightbox="lesdocteurs" data-title="My caption">
+                                <img  class="img-fluid" src="img/newpics/lèa.jpeg" alt="">
                                 </a>
                             </div>
                             <div class="team-text bg-light text-center p-4">
                                 <h5>Lèa Hoornaert</h5>
                                 <p class="text-primary">Department</p>
                                 <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square" href="https://progenda.be/calendars/hoornaert-lea-podologue-laeken?locale=fr" target="_blank"><i class="fa-solid fa-user-doctor"></i></a>
+                                    <a class="btn btn-square" href="+32 470 04 67 47" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                                    <!-- <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -436,17 +455,17 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item position-relative rounded overflow-hidden">
                             <div style="height: 400px;" class="overflow-hidden">
-                                <a href="img/whatsapp_images/WhatsApp Image 2024-03-25 at 21.20.44.jpeg" data-lightbox="lesdocteurs" data-title="My caption">
-                                    <img class="img-fluid" src="img/whatsapp_images/WhatsApp Image 2024-03-25 at 21.20.44.jpeg" alt="">
+                                <a href="img/newpics/magda.jpeg" data-lightbox="lesdocteurs" data-title="My caption">
+                                    <img class="img-fluid" src="img/newpics/magda.jpeg" alt="">
                                 </a>
                                 </div>
                             <div class="team-text bg-light text-center p-4">
                                 <h5>Magda Guatteri</h5>
                                 <p class="text-primary">Psycologue Clinicienne</p>
                                 <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square" href="tel:+32 474 80 02 75"><i class="fa-solid fa-phone" target="_blank"></i></a>
+                                    <!-- <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -459,20 +478,20 @@
 
 
     <!-- Appointment Start -->
-    <div class="container-xxl py-5">
+    <div id="appointment_start" class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <p class="d-inline-block border rounded-pill py-1 px-4">Appointment</p>
                     <h1 class="mb-4">Prendre un rendez-vous</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-4">Prenez rendez-vous avec l’un de nos médecins, en précisant vos disponibilités de dates et d’heures.</p>
                     <div class="bg-light rounded d-flex align-items-center p-5 mb-4">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
                             <i class="fa fa-phone-alt text-primary"></i>
                         </div>
                         <div class="ms-4">
                             <p class="mb-2">Call Us Now</p>
-                            <h5 class="mb-0">+012 345 6789</h5>
+                            <h5 class="mb-0">+32 497427135</h5>
                         </div>
                     </div>
                     <div class="bg-light rounded d-flex align-items-center p-5">
@@ -480,12 +499,12 @@
                             <i class="fa fa-envelope-open text-primary"></i>
                         </div>
                         <div class="ms-4">
-                            <p class="mb-2">Mail Us Now</p>
+                            <p class="mb-2">On recrute !</p>
                             <h5 class="mb-0">info@example.com</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <!-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="bg-light rounded h-100 d-flex align-items-center p-5">
                         <form>
                             <div class="row g-3">
@@ -522,6 +541,56 @@
                                 </div>
                                 <div class="col-12">
                                     <textarea class="form-control border-0" rows="5" placeholder="Describe your problem"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div> -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-light rounded h-100 d-flex align-items-center p-5">
+                        <form id="appointmentForm" action="https://formsubmit.co/lanthiez.podo@gmail.com" method="POST">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" name="name" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" name="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" name="mobile" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select id="doctorSelect" class="form-select border-0" style="height: 55px;">
+                                        <option selected>Choose Doctor</option>
+                                        <option value="dario.plastina@gmail.com">Dario Plastina</option>
+                                        <option value="lanthiez.podo@gm ail.com">Laure Lanthiez</option>
+                                        <option value="jlopesfv@gmail.com">Jessica Lopes Ferreira</option>
+                                        <option value="guatterimagda@gmail.com">Magda Guatteri</option>
+                                        <option value="Yourpoweehouseandmore@gmail.com">Fabienne Pereira</option>
+                                        <option value="podo.bott@gmail.com">Charlene Bott</option>
+                                        <option value="leahrnt.podo@gmail.com">Léa Hoornaert</option>
+                                    </select>
+                                </div>
+                                <input type="hidden" id="doctorEmail" name="doctor_email" value="lanthiez.podo@gmail.com">
+                                <!-- <div class="col-12 col-sm-6">
+                                    <div class="date" id="date" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="time" id="time" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div> -->
+                                <div class="col-12">
+                                    <textarea name="message" class="form-control border-0" rows="5" placeholder="Describe your problem"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
@@ -590,7 +659,7 @@
                         <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <!-- <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Services</h5>
                     <a class="btn btn-link" href="">Cardiology</a>
                     <a class="btn btn-link" href="">Pulmonary</a>
@@ -613,7 +682,7 @@
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="container">
@@ -642,6 +711,7 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
@@ -654,6 +724,13 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        document.getElementById('doctorSelect').addEventListener('change', function() {
+            var selectedDoctor = this.value;
+            document.getElementById('doctorEmail').value = selectedDoctor;
+            document.getElementById('appointmentForm').action = 'https://formsubmit.co/' + selectedDoctor;
+        });
+    </script>
 </body>
 
 </html>
